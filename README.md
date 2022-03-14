@@ -28,9 +28,8 @@
 1. start.bat will open a Command Prompt terminal window - navigate into the project folder in your C drive from the terminal.
     ```
     $ cd C:\_SELF-SIGNED-CERT-SSL
-    $ <PASTE COPIED CONTENT FROM 2-genssl.txt>
+    $ <RIGHT CLICK TO PASTE COPIED CONTENT FROM 2-genssl.txt>
     $ <PRESS ENTER>
-    $ <PRESS ENTER AGAIN>
     ```
 
 1. You should see generated content in the project folder in your C drive
@@ -56,7 +55,8 @@ For Windows 10, at the top of your folder settings: click "view" --> enable "fil
 
 1. Copy the **server.crt** file
 
-1. Navigate to the folder **SSL_LOCATION-WINDOWS-AMPPS** and then **ssl_crt - Shortcut (C Drive)**
+1. Navigate to the folder **SSL_LOCATION-WINDOWS-AMPPS** and then **ssl_crt - Shortcut (C Drive)**  
+If you did not install AMPPS in the default C drive location, go to: `<YOUR_AMPPS_LOCATION>\apache\conf\ssl_crt`
     - change server.crt to **server.crt.bak**
     - paste the copied server.crt file
 
@@ -64,7 +64,9 @@ For Windows 10, at the top of your folder settings: click "view" --> enable "fil
 
 1. Copy the **server.key** file
 
-1. Navigate to the folder **SSL_LOCATION-WINDOWS-AMPPS** and then **ssl_key - Shortcut (C Drive)**
+1. Navigate to the folder **SSL_LOCATION-WINDOWS-AMPPS** and then **ssl_key - Shortcut (C Drive)**  
+If you did not install AMPPS in the default C drive location, go to: `<YOUR_AMPPS_LOCATION>\apache\conf\ssl_key`
+
     - change server.key to **server.key.bak**
     - paste the copied server.key file
 

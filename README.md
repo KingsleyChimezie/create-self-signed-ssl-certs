@@ -9,7 +9,7 @@
 [![<Enter Alt Text - KMP>](https://img.youtube.com/vi/WY1MxGzjI0o/0.jpg)](https://youtu.be/WY1MxGzjI0o "KCC Video Guide")
 
 ---
-## Create Self Signed Certificate - Windows
+## Create Self Signed SSL Certificate - Windows
 
 1. [Download and install Win64 OpenSSL v1.1.1m](https://slproweb.com/products/Win32OpenSSL.html#:~:text=of%20the%20installation.-,Win64%20OpenSSL%20v1.1.1m,-EXE%20%7C%20MSI)
 
@@ -46,7 +46,7 @@
         1. For Mac, add the RootCA.crt in your keychain and enable "always trust"
 
 
-### Configure self-signed SSL with AMPPS
+### Configure self-signed SSL cert with AMPPS
 
 - In the project folder in your C drive - i.e. `C:\_SELF-SIGNED-CERT-SSL`
     
@@ -74,7 +74,7 @@ If you did not install AMPPS in the default C drive location, go to: `<YOUR_AMPP
 
 1. Browse any of the domains you set in 1-domains.ext using HTTPS - e.g. https://localhost or https://127.0.0.1
 
-### Configure self-signed SSL with XAMPP
+### Configure self-signed SSL cert with XAMPP
 ...
 
 ---

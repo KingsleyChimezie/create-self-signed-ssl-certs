@@ -1,0 +1,4 @@
+openssl req -x509 -nodes -new -sha256 -days 36525 -newkey rsa:2048 -keyout RootCA.key -out RootCA.pem -subj "/C=IE/CN=Kingsley Chimezie Creations (KCC)"
+openssl x509 -outform pem -in RootCA.pem -out RootCA.crt
+openssl req -new -nodes -newkey rsa:2048 -keyout server.key -out server.csr -subj "/C=IE/ST=Leinster/L=Dublin/O=Server/CN=localhost"
+openssl x509 -req -sha256 -days 1024 -in server.csr -CA RootCA.pem -CAkey RootCA.key -CAcreateserial -extfile 1-domains.ext -out server.crt

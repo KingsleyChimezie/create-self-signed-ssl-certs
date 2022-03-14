@@ -1,0 +1,5 @@
+# Change Log
+This project adheres to [Semantic Versioning](http://semver.org/).
+
+## v1.0.0 [2022-03-14]
+- Initial Release

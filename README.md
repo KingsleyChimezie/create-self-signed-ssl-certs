@@ -2,7 +2,7 @@
 # Create Self-Signed SSL Certificate
 
 ## Prerequisites ✅
-1. Download and extract this project - [_SELF-SIGNED-CERT-SSL.zip](https://github.com/KingsleyChimezie/create-self-signed-ssl-certs/_SELF-SIGNED-CERT-SSL.zip)
+1. Download and extract this project - [_SELF-SIGNED-CERT-SSL.zip](https://bitbucket.org/KingsleyChimezie/create-self-signed-ssl-certs/raw/909eff16c22ecd25ec98cf29bde51b6f95eed745/_SELF-SIGNED-CERT-SSL.zip)
 1. Have your local web server set up, I recommend Apache via [AMPPS](https://ampps.com/downloads/) stack.
 
 ## Video Guide / Demo 🎥

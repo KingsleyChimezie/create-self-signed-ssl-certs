@@ -51,26 +51,26 @@
 
 - In the project folder in your C drive - i.e. `C:\_SELF-SIGNED-CERT-SSL`
     
-    1. Enable file name extensions.  
-    For Windows 10, at the top of your folder settings: click "view" --> enable "file name extensions"
+1. Enable file name extensions.  
+For Windows 10, at the top of your folder settings: click "view" --> enable "file name extensions"
 
-    1. Copy the **server.crt** file
-    
-    1. Navigate to the folder **SSL_LOCATION-WINDOWS-AMPPS** and then **ssl_crt - Shortcut (C Drive)**
-        - change server.crt to **server.crt.bak**
-        - paste the copied server.crt file
-    
-    1. Go back to the project folder in your C drive - i.e. `C:\_SELF-SIGNED-CERT-SSL`
-    
-    1. Copy the **server.key** file
+1. Copy the **server.crt** file
 
-    1. Navigate to the folder **SSL_LOCATION-WINDOWS-AMPPS** and then **ssl_key - Shortcut (C Drive)**
-        - change server.key to **server.key.bak**
-        - paste the copied server.key file
+1. Navigate to the folder **SSL_LOCATION-WINDOWS-AMPPS** and then **ssl_crt - Shortcut (C Drive)**
+    - change server.crt to **server.crt.bak**
+    - paste the copied server.crt file
 
-    1. Start or Restart AMPPS
+1. Go back to the project folder in your C drive - i.e. `C:\_SELF-SIGNED-CERT-SSL`
 
-    1. Browse any of the domains you set in 1-domains.ext using HTTPS - e.g. https://localhost or https://127.0.0.1
+1. Copy the **server.key** file
+
+1. Navigate to the folder **SSL_LOCATION-WINDOWS-AMPPS** and then **ssl_key - Shortcut (C Drive)**
+    - change server.key to **server.key.bak**
+    - paste the copied server.key file
+
+1. Start or Restart AMPPS
+
+1. Browse any of the domains you set in 1-domains.ext using HTTPS - e.g. https://localhost or https://127.0.0.1
 
 ### Configure self-signed SSL with XAMPP
 ...
